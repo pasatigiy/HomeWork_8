@@ -1,6 +1,6 @@
 public class RunnerTask0 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws CheckException {
 
         String number = new String("1111-aBc-2222-bbB-3c4d");
 
@@ -15,9 +15,9 @@ public class RunnerTask0 {
 
         DocumentNumber.checkABC(number); //проверить содержит ли номер документа последовательность abc
 
-        DocumentNumber.checkStart555(number);//Проверить начинается ли номер документа с последовательности 555.
+        DocumentNumber.checkStart555(number);//Проверить начинается ли номер документа с последовательности 1111.
 
-        DocumentNumber.checkEnd3c4d(number);//Проверить заканчивается ли номер документа на последовательность 3c4d.
+        DocumentNumber.checkEnd3c4d(number);//Проверить заканчивается ли номер документа на последовательность 1a2b.
 
 
 
